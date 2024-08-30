@@ -1,0 +1,24 @@
+body{
+    background-image: url(david-clode-swtg-ahmGzY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#clock-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5em;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(248, 247, 246);
+    backdrop-filter: blur(2px);
+    background-color: rgba(252, 244, 244, 0.1);
+    width: 100%;
+}
